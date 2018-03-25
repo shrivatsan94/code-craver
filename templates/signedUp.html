@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello {{name}}!!
+    You Have Successfully signed in!!!!!</title>
+</head>
+<body>
+<h2>Hello {{name}}!!</h2>
+<form method="post" action="/getdata/">
+    <table>
+    	<tr>
+            <td>Your loginid</td>
+            <td><strong>{{ loginid }}</strong></td>
+        </tr>
+        <tr>
+            <td>Your Phone Number</td>
+            <td><strong>{{ phoneNumber }}</strong></td>
+        </tr>
+        <tr>
+            <td>Your MailId</td>
+            <td><strong>{{ mailid }}</strong></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
