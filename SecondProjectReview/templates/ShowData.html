@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MVT Application</title>
+    <title>Hello {{name}}!!</title>
+    <title>Welcome to MVT Application!!!!</title>
+</head>
+<body>
+<h2>Hello {{name}}!!</h2>
+<form method="post" action="/getdata/">
+    <table>
+    	<tr>
+            <td>Your User Id</td>
+            <td><strong>{{ userId }}</strong></td>
+        </tr>
+        <tr>
+            <td>Your Phone Number</td>
+            <td><strong>{{ phoneNumber }}</strong></td>
+        </tr>
+        <tr>
+            <td>Your EMail Id</td>
+            <td><strong>{{ emailId }}</strong></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
